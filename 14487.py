@@ -1,10 +1,10 @@
 """
 ##########
 ## CASE 1
-# a = [1, 6, 5, 2, 4]
 # b = 5
-a = list(map(int, input().split()))
+# a = [1, 6, 5, 2, 4]
 b = int(input())
+a = list(map(int, input().split()))
 c = 0
 a.sort()
 print(a)
@@ -13,6 +13,9 @@ for i in range(b-1):
 print(c)
 """
 
+"""
+##########
+## CASE 2
 # a = [1, 6, 5, 2, 4, 5, 5]
 # b = 5
 b = int(input())
@@ -27,7 +30,7 @@ for i in range(len(a)):
 for i in range(b-1):
     c = c + a[i]
 print(c)
-
+"""
 
 """
 ##########
